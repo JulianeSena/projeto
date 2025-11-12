@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Cadastro de Usuário</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div>
+            <h1>Casdastrar Usuário</h1>
+            <form action="/cadastrar_usuario" method="post">
+                <label>
+                    <p>Nome</p>
+                    <input type="text" name="nome_user" value="">
+                </label>
+                <label>
+                    <p>E-mail</p>
+                    <input type="email" name="email_user" value="">
+                </label>
+                <label>
+                    <p>Data de nascimento</p>
+                    <input type="date" name="data_user" value="">
+                </label>
+                <label style="display: flex;">
+                    <p>É adminstrador?</p>
+                    <input type="checkbox" name="e_admin_user" value="true">
+                </label>
+                <br>
+                <label>
+                    <button type="submit">Cadastrar</button>
+                </label>
+            </form>
+        </div>
+    </body>
+</html>
